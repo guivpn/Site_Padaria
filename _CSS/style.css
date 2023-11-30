@@ -1,0 +1,289 @@
+body{
+    margin: 0;
+}
+.item01{
+    width: 100%;
+    height: 550px;
+    background-image: url('../_Imagens/bolo-de-chocolate.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100% 100%; 
+    text-align: center;
+}
+ .item01-top{
+    width: 100%;
+    height: 35%; 
+}
+.item01-esq{
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+.item01-esq img{
+    width: 250px;
+    margin-top: 35px;
+    margin-left: -100px;
+}
+
+
+.item01-dir{
+    width: 70%;
+    height: 100%;
+    float: left;
+}
+.menu {
+    display: block;
+}
+.menu ul {
+    list-style: none;
+    text-transform: uppercase;
+}
+.menu li {
+    display: inline-block;
+    color: white;
+    font-size: 14pt;
+    font-weight: bold;
+    padding: 15px;
+    text-shadow: 5px 5px 5px blue;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+.menu li:hover{
+    color: blue;
+    font-size: 16pt;
+}
+
+
+.item01-inf{
+    width: 100%;
+    height: 65%;
+}
+.batalha{
+    color: white;
+    font-size: 50pt;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 2px blueviolet;
+
+}
+
+.bolo-p{
+    color: white;
+    font-size: 20pt;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 100px;
+    text-shadow: 1px 1px 1px blueviolet;
+}
+.item02{
+    width: 100%;
+    height: 480px;
+    padding-top: 5%;
+}
+.item02-int{
+    width: 90%;
+    height: 90%;
+    background-color: #fff001;
+    margin: 0 auto;
+    border-radius: 25px;
+}
+.item02-esq{
+    width: 60%;
+    height: 100%;
+    float: left;
+}
+.item02-esqint{
+    margin-left: 11%;
+    padding: 10%;
+}
+.texto{
+    font-size: 16pt;
+    padding: 2%;
+}
+.item02-esqint h1{
+    padding-left: 2%;
+    font-size: 26pt;
+    color: #b31516;
+    font-weight: bolder;
+}
+.veja{
+    background-color: #b31516;
+    width: 320px;
+    height: 60px;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+.veja p{
+    line-height: 60px;
+    color: yellow;
+    font-size: 22pt;
+    font-weight: bolder;
+}
+.item02-int{
+    width: 90%;
+    height: 90%;
+    background-color: #fff001;
+    margin: 0 auto;
+}
+.item02-dir{
+    width: 40%;
+    height: 100%;
+    float: left;
+}
+.item02-dirint{
+    width: 90%;
+    height: 90%;
+    margin-top: 5%;
+    background-image: url("../_Imagens/BOLO-PRESTIGIO.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+.item02-faixa{
+    width: 100%;
+    height: 30%;
+    background-color: rgba(247, 229, 31, .7);
+    position: relative;
+    top: 35%
+}
+.item02-faixa p{
+    color: #b31516;
+    text-align: center;
+    font-size: 26pt;
+    padding-top: 20px;
+    font-weight: bolder;
+}
+.item03{
+    width: 100%;
+}
+.item03 h1{
+    margin-left: 100px;
+    color: #b31516;
+}
+.item04{
+    width: 100%;
+    height: 300px;
+}
+.item04-cont{
+    width: 90%;
+    height: 90%;
+    margin: 0 auto;
+}
+.item04-bloco{
+    width: 23,5%;
+    height: 100%;
+    margin-right: 2%;
+    float: left;
+}
+.item04-bloco:last-child{
+    margin-right: 0;
+}
+
+.item04-foto1{
+    width: 100%;
+    height: 70%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100% 100%;
+    background-image: url("..//_Imagens/download.jpg");   
+}
+.item04-foto2{
+    width: 100%;
+    height: 70%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100% 100%;
+    background-image: url("../_Imagens/receita-de-bolo-de-limao.jpg");
+}
+.item04-foto3{
+    width: 100%;
+    height: 70%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100% 100%;
+    background-image: url("../_Imagens/bolo-cafe-licor-chocolate.jpg");
+}
+.item04-foto4{
+    width: 100%;
+    height: 70%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100% 100%;
+    background-image: url("../_Imagens/Bolo-Fit-de-alpiste-e-banana.jpg");
+}
+.item04-texto{
+    width: 100%;
+    height: 30%;
+    color: #b31516;
+}
+.item04-texto h5{
+    color: #dcd75a;
+}
+.item05{
+    width: 100%;
+    height: 250px;
+    background-color: #b32211;
+}
+.item05-sup{
+    width: 100%;
+    height: 70%;
+}
+.item05-inf{
+    width: 100%;
+    height: 30%;
+    background-color:  #b31516;
+}
+.item05-25{
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+.item05-25 p{
+    margin-left: 11%;
+    padding: 10%;
+    color: white;
+}
+.item05-25g{
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+.item05-25g p{
+    margin-left: 11%;
+    padding: 10%;
+    color: white;
+}
+.item05-30{
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+.item05-30 h3{
+    color: white;
+}
+.item05-20{
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+.item05-20{
+    background-image: url("../_Imagens/LOGO.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+}
+.item05-inf{
+    font-size: 10pt;
+}
+.item05-inf h1{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+}
